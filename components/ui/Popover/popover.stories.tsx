@@ -20,8 +20,9 @@ const meta = {
     type Story = StoryObj<typeof Popover>;
 
     export const Default: Story ={
-        render: ()=>(<Popover>
+        render: (args)=>(<Popover {...args}>
             <PopoverTrigger>Open</PopoverTrigger>
             <PopoverContent>Place content for the popover here.</PopoverContent>
-          </Popover>)
+          </Popover>),
+        
             }
