@@ -5,7 +5,9 @@ import { Button } from './button';
 
 
 const meta = {
-  title: 'ui/Button',
+
+  title: 'UI/Button',
+
   component: Button,
   parameters: {
     
@@ -45,7 +47,7 @@ export const Secondary: Story = {
 
   export const Destructive: Story = {
     args: {
-      variant: 'danger',
+      variant: 'destructive',
       size: 'sm',
       disabled: false,
   onClick: action('destructive  click'),
