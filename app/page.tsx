@@ -1,3 +1,5 @@
+
+"use client";
 import TestToast from './test-toast'
 
 export default function Home() {
@@ -7,3 +9,4 @@ export default function Home() {
     </main>
   )
 }
+
