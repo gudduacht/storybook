@@ -71,6 +71,7 @@ export const Default: Story = {
     },
   },
   render: ({ side, showHeader, showFooter, showDescription, title, description }) => {
+    // eslint-disable-next-line react-hooks/rules-of-hooks
     const [open, setOpen] = React.useState(false)
 
     return (
