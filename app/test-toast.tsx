@@ -1,8 +1,7 @@
 'use client'
 
 import { toast } from "sonner"
-import { Button } from "@/lib/Primitives/Button/button"
-
+import { Button } from "@/components/Primitives/Button/button"
 export default function TestToast() {
   return (
     <div className="flex  align-center gap-4 p-4">
