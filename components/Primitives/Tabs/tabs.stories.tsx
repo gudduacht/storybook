@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react'
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "./tabs"
 import { Button } from "@/components/Primitives/Button/button"
-import { cn } from "@/lib/utils"
+
 import * as React from "react"
 
 const meta = {

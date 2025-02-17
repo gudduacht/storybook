@@ -21,6 +21,9 @@ const meta = {
   component: DataTable,
   parameters: {
     layout: "centered",
+    backgrounds: {
+        default: 'dark',
+      },
   },
   tags: ["autodocs"],
   argTypes: {
