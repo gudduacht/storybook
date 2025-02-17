@@ -1,13 +1,12 @@
 
 "use client";
-
-import { PatientForm } from "@/lib/ptrecords";
-
+import TestToast from './test-toast'
+import Login from './login/page'
 
 export default function Home() {
   return (
-    <main className=" flex w-screen  justify-center items-center p-9">
-   <PatientForm/>
+    <main>
+      <Login/>
     </main>
   )
 }
